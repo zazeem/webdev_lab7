@@ -23,8 +23,7 @@ body {
 }
 
 #planets {
-  background-color: gray;
-  text-align: center;
+  background-color: rgba(80,80,80,0.9);
 	border: 2px solid;
   font-family: "Space Mono", monospace;
   font-weight: bold;
@@ -32,6 +31,15 @@ body {
   width: 90%;
   margin: 10px auto;
   border-collapse: collapse;
+  box-shadow: 0 0 15px black;
+
+}
+
+#planets img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+
 }
 
 a {
